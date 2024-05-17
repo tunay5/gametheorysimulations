@@ -20,10 +20,12 @@ install.packages("devtools")
 library(devtools)
 ```
 
+
+
 And then by using the function that is provided by devtools package, you can install the *gametheorysimulations* package.
 
 ```{r}
-
+install_github("tunay5/gametheorysimulations",force = TRUE)
 ```
 
 
